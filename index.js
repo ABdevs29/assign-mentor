@@ -175,6 +175,5 @@ app.delete("/students/:id", async (request, response) => {
   response.send(student);
 });
 
-//Assign student to mentor
 
 app.listen(PORT, () => "Server has started at Port", PORT);
